@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"606c719e3dd247b3","type":"text","text":"**CULTURE NUMERIQUE**\n\n- Enjeux de la sécurisation des données\n- Bonnes pratiques des utilisateurs\n- Cadre juridique et sensibilisation","x":-340,"y":-880,"width":250,"height":240,"color":"4"},
+		{"id":"a05b2b1efb8547da","type":"text","text":"**TYPES D'ATTAQUES**\n\n- **Phishing** (Ingénierie sociale)\n- **Ransomware** (Logiciel malveillant)\n- **Attaque par Déni de Service** (DDoS)","x":-1000,"y":-160,"width":330,"height":197,"color":"3"},
+		{"id":"d4b6c122f233da99","type":"text","text":"**MITIGATION / CONTRE MESURES**\n\n- Authentification multifacteur (MFA)\n- Sauvegardes régulières isolées\n- Formation et tests de sensibilisation des équipes","x":220,"y":-61,"width":250,"height":293,"color":"1"},
+		{"id":"ae5218ada4e68284","type":"file","file":"cybersecurite.jpg","x":-540,"y":-460,"width":690,"height":393}
+	],
+	"edges":[
+		{"id":"40af21236f052eb7","fromNode":"606c719e3dd247b3","fromSide":"left","toNode":"a05b2b1efb8547da","toSide":"top"},
+		{"id":"2c3fbf81d508a61e","fromNode":"a05b2b1efb8547da","fromSide":"bottom","toNode":"d4b6c122f233da99","toSide":"left"},
+		{"id":"622ab70b7323115e","fromNode":"606c719e3dd247b3","fromSide":"right","toNode":"d4b6c122f233da99","toSide":"right"},
+		{"id":"b2515928ebed2819","fromNode":"ae5218ada4e68284","fromSide":"left","toNode":"a05b2b1efb8547da","toSide":"right"},
+		{"id":"3b74fbe0532e1d65","fromNode":"ae5218ada4e68284","fromSide":"top","toNode":"606c719e3dd247b3","toSide":"bottom"},
+		{"id":"71234c1878d095df","fromNode":"ae5218ada4e68284","fromSide":"bottom","toNode":"d4b6c122f233da99","toSide":"top"}
+	]
+}
